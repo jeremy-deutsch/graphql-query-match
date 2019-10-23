@@ -12,6 +12,7 @@
     "graphql"
   ],
   "author": "jeremy-deutsch",
+  "repository": "https://github.com/jeremy-deutsch/graphql-query-match",
   "license": "ISC",
   "dependencies": {
     "graphql-anywhere": "^4.2.4"
