@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "rootDir": "src",
+    "outDir": "lib",
+    "baseUrl": ".",
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["./**/*.test.ts"]
+}
