@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Validate the contents of GraphQL queries using other GraphQL queries",
   "main": "lib/index.js",
+  "type": "module",
   "scripts": {
     "build": "tsc -d",
     "test": "jest",

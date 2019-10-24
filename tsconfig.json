@@ -6,9 +6,7 @@
     "rootDir": "src",
     "outDir": "lib",
     "baseUrl": ".",
-    "strict": true,
-    "resolveJsonModule": true,
-    "esModuleInterop": true
+    "strict": true
   },
   "exclude": ["./**/*.test.ts"]
 }
