@@ -1,5 +1,7 @@
 # `graphql-query-match`
 
+Check the contents of GraphQL queries using other GraphQL queries.
+
 This package is still under development, but if you want to try it, check out some of the test cases on github for examples.
 
 API:
