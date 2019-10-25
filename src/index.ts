@@ -25,6 +25,12 @@ import graphql from "graphql-anywhere";
  * result - if every field in the matcher is reachable, the query is a match.
  */
 
+/**
+ * Given a larger and smaller GraphQL query, check if the bigger one contains
+ * the smaller one.
+ * @param matcher The sub-query to see if the big query is a match of
+ * @param queryToCheck The large query that might contain the matcher
+ */
 export default function doesQueryMatch(
   matcher: DocumentNode,
   queryToCheck: DocumentNode | ApolloInfo

@@ -1,12 +1,12 @@
 {
   "name": "graphql-query-match",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Validate the contents of GraphQL queries using other GraphQL queries",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc -d",
-    "test": "jest",
+    "build": "tsdx build --format cjs,esm,umd",
+    "test": "tsdx test",
     "prepublishOnly": "npm run test && npm run build"
   },
   "keywords": [
@@ -22,9 +22,7 @@
     "@types/jest": "^24.0.19",
     "graphql": "^14.5.8",
     "graphql-tag": "^2.10.1",
-    "jest": "^24.9.0",
-    "ts-jest": "^24.1.0",
-    "ts-node": "^8.4.1",
+    "tsdx": "^0.10.5",
     "typescript": "^3.6.4"
   },
   "peerDependencies": {
