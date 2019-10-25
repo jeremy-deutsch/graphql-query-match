@@ -6,7 +6,9 @@
     "rootDir": "src",
     "outDir": "lib",
     "baseUrl": ".",
-    "strict": true
+    "strict": true,
+    "module": "commonjs",
+    "esModuleInterop": true
   },
   "exclude": ["./**/*.test.ts"]
 }
