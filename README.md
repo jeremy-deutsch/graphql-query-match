@@ -1,10 +1,8 @@
 # `graphql-query-match`
 
-Check the contents of GraphQL queries using other GraphQL queries.
+Check the contents of GraphQL queries using other GraphQL queries. Works with compiled GraphQL queries as well as `apollo-server` query subtrees.
 
-This package is still under development, but if you want to try it, check out some of the test cases on github for examples.
-
-API:
+API examples:
 
 ```javascript
 import doesQueryMatch from "graphql-query-match";
